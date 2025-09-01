@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Atividade33 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner leia = new Scanner(System.in);
         int idade, soma = 0, cont = 0;
 
         System.out.println("Digite idades (digite um numero negativo para parar):");
         do {
-            idade = sc.nextInt();
+            idade = leia.nextInt();
             if (idade >= 0) {
                 soma += idade;
                 cont++;
